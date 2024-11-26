@@ -1,0 +1,229 @@
+{
+  "checklists": {
+    "checklists": []
+  },
+  "creationTag": {
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1454939239998,
+    "versionNumber": 0
+  },
+  "description": "",
+  "listed": true,
+  "name": "failure prediction",
+  "owner": "admin",
+  "params": {
+    "datasetSmartName": "Asset_new_informations_scored",
+    "def": {
+      "animationDimension": [],
+      "animationFrameDuration": 3000,
+      "animationRepeat": true,
+      "axis1LogScale": false,
+      "axis2LogScale": false,
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "bubblesOptions": {
+        "defaultRadius": 5.0
+      },
+      "chartHeight": 200,
+      "colorMeasure": [],
+      "colorOptions": {
+        "ccScaleMode": "NORMAL",
+        "colorPalette": "default",
+        "customPalette": {
+          "colors": [],
+          "fixedValues": false,
+          "id": "__dku_custom__",
+          "name": "Custom palette",
+          "values": []
+        },
+        "numQuantizeSteps": 5,
+        "paletteMiddleValue": 0.0,
+        "paletteType": "CONTINUOUS",
+        "quantizationMode": "NONE",
+        "singleColor": "#659a88",
+        "transparency": 0.75
+      },
+      "computeMode": "NORMAL",
+      "disableSafetyLimits": false,
+      "facetDimension": [],
+      "fillOpacity": 0.5,
+      "filters": [],
+      "genericDimension0": [
+        {
+          "column": "prediction",
+          "filters": [],
+          "generateOthersCategory": true,
+          "isA": "dimension",
+          "maxValues": 100,
+          "numParams": {
+            "binSize": 100,
+            "emptyBinsMode": "ZEROS",
+            "mode": "TREAT_AS_ALPHANUM",
+            "nbBins": 10
+          },
+          "oneTickPerBin": "NO",
+          "possibleSorts": [
+            {
+              "label": "Natural ordering",
+              "sortAscending": true,
+              "type": "NATURAL"
+            },
+            {
+              "label": "Count of records, descending",
+              "measureIdx": 0,
+              "type": "AGGREGATION"
+            },
+            {
+              "label": "Count of records, ascending",
+              "measureIdx": 0,
+              "sortAscending": true,
+              "type": "AGGREGATION"
+            },
+            {
+              "label": "Average of proba_1, descending",
+              "measureIdx": 1,
+              "type": "AGGREGATION"
+            },
+            {
+              "label": "Average of proba_1, ascending",
+              "measureIdx": 1,
+              "sortAscending": true,
+              "type": "AGGREGATION"
+            }
+          ],
+          "sort": {
+            "label": "Natural ordering",
+            "sortAscending": true,
+            "type": "NATURAL"
+          },
+          "type": "NUMERICAL"
+        }
+      ],
+      "genericDimension1": [],
+      "genericMeasures": [
+        {
+          "computeMode": "NORMAL",
+          "computeModeDim": 1,
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "displayed": true,
+          "function": "COUNT",
+          "isA": "measure",
+          "type": "NUMERICAL"
+        }
+      ],
+      "geometry": [],
+      "groupDimension": [],
+      "hexbinNumber": 20,
+      "hexbinRadius": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "includeZero": true,
+      "legendPlacement": "OUTER_RIGHT",
+      "mapGridOptions": {
+        "gridLatDeg": 0.6,
+        "gridLonDeg": 0.6
+      },
+      "mapOptions": {
+        "lockSquareGrid": false,
+        "tilesLayer": "mapquest-std"
+      },
+      "multiTooltips": false,
+      "name": "failure prediction",
+      "pieOptions": {
+        "donutHoleSize": 50.0
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false
+      },
+      "showInChartLabels": false,
+      "showInChartValues": false,
+      "showLegend": true,
+      "showXAxis": false,
+      "showXAxisLabel": false,
+      "showYAxisLabel": false,
+      "singleXAxis": false,
+      "sizeMeasure": [],
+      "smoothing": false,
+      "strokeWidth": 1,
+      "tooltipMeasures": [
+        {
+          "column": "proba_1",
+          "computeModeDim": 1,
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "displayed": true,
+          "function": "AVG",
+          "isA": "measure",
+          "type": "NUMERICAL"
+        }
+      ],
+      "type": "grouped_columns",
+      "uaColor": [],
+      "uaShape": [],
+      "uaSize": [],
+      "uaTooltip": [],
+      "uaXDimension": [],
+      "uaYDimension": [],
+      "useLiveProcessingIfAvailable": true,
+      "userEditedName": true,
+      "valuesInChartDisplayOptions": {
+        "displayMode": "VALUES",
+        "displayValues": false
+      },
+      "variant": "normal",
+      "xAxisFormatting": {
+        "isLogScale": false,
+        "showAxisTitle": false
+      },
+      "xAxisMode": "NORMAL",
+      "xDimension": [],
+      "xMeasure": [],
+      "yAxesFormatting": [
+        {
+          "isLogScale": false,
+          "showAxisTitle": false
+        }
+      ],
+      "yAxisMode": "NORMAL",
+      "yDimension": [],
+      "yMeasure": []
+    },
+    "engineType": "LINO",
+    "maxDataBytes": 0,
+    "refreshableSelection": {
+      "_refreshTrigger": 0,
+      "autoRefreshSample": false,
+      "selection": {
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "latestPartitionsN": 1,
+        "maxReadUncompressedBytes": -1,
+        "maxRecords": 30000,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "partitionSelectionMethod": "ALL",
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "targetRatio": 0.02,
+        "useMemTable": false,
+        "withinFirstN": -1
+      }
+    }
+  },
+  "shortDesc": "",
+  "tags": [],
+  "type": "chart",
+  "versionTag": {
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1511272204108,
+    "versionNumber": 5
+  }
+}
