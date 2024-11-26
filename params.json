@@ -176,7 +176,8 @@
     },
     "dkuProperties": []
   },
-  "name": "Predictive Maintenance (Basics)",
+  "name": "Predictive Maintenance (Basics) for Administrator",
+  "projectStatus": "Sandbox",
   "imgPattern": 5,
   "metrics": {
     "probes": [],
