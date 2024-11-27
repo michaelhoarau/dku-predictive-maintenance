@@ -1,0 +1,20 @@
+{
+  "name": "JupyterLab environment",
+  "libName": "JupyterLab_environment",
+  "templateId": "JupyterLab",
+  "params": {},
+  "owner": "michael",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "michael"
+    },
+    "lastModifiedOn": 1732710576152,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
