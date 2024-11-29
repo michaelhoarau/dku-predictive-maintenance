@@ -1,15 +1,7 @@
 {
   "type": "step_based",
   "name": "test",
-  "active": false,
-  "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1732888107993,
-    "extendedProperties": {}
-  },
+  "active": true,
   "checklists": {
     "checklists": []
   },
