@@ -1,7 +1,7 @@
 {
   "type": "step_based",
   "name": "test",
-  "active": true,
+  "active": false,
   "checklists": {
     "checklists": []
   },
