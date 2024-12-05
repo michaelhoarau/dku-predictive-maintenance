@@ -4,11 +4,11 @@
       "remote": "git@github.com:michaelhoarau/library.git",
       "checkout": "main",
       "remotePath": "",
-      "lastHash": "6d091f86d24f584970a861cd0961786da53cf90e",
+      "lastHash": "160e20670014d7fba1afeb3ebaf29d02b42bb6fc",
       "conflictingFiles": [],
       "resolvedFiles": [],
       "faultyHash": "",
-      "isDirty": true
+      "isDirty": false
     }
   },
   "pythonPath": [
