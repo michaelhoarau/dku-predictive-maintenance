@@ -4,8 +4,10 @@
       "remote": "git@github.com:michaelhoarau/library.git",
       "checkout": "main",
       "remotePath": "",
-      "lastHash": "37402f34a0a426e13a0a33231693ee5a706cbdf7",
-      "conflictingFiles": [],
+      "lastHash": "5fd7ab07cc1c15dd65fa68a857b3c837a65d22b7",
+      "conflictingFiles": [
+        "to_xlsx.py"
+      ],
       "resolvedFiles": [],
       "faultyHash": "37402f34a0a426e13a0a33231693ee5a706cbdf7",
       "isDirty": false
