@@ -5,11 +5,9 @@
       "checkout": "main",
       "remotePath": "",
       "lastHash": "f6d44bcbff21701265146e3696431de792a3bce4",
-      "conflictingFiles": [
-        "to_xlsx.py"
-      ],
+      "conflictingFiles": [],
       "resolvedFiles": [],
-      "faultyHash": "160e20670014d7fba1afeb3ebaf29d02b42bb6fc",
+      "faultyHash": "",
       "isDirty": false
     }
   },
