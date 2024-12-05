@@ -2,6 +2,7 @@ import dataiku
 import pandas as pd
 import openpyxl
 
+
 def dataframe_to_xlsx(input_dataframe, folder_name, output_file_name):
     folder = dataiku.Folder(folder_name)
     folder_path = folder.get_path()
