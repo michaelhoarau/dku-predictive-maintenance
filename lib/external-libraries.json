@@ -1,7 +1,15 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "library": {
+      "remote": "git@github.com:michaelhoarau/library.git",
+      "checkout": "",
+      "remotePath": "",
+      "isDirty": false
+    }
+  },
   "pythonPath": [
-    "python"
+    "python",
+    "library"
   ],
   "rsrcPath": [
     "R"
