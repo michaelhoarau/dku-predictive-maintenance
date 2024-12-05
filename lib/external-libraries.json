@@ -10,6 +10,10 @@
       "remote": "git@github.com:michaelhoarau/library.git",
       "checkout": "main",
       "remotePath": "",
+      "lastHash": "6d091f86d24f584970a861cd0961786da53cf90e",
+      "conflictingFiles": [],
+      "resolvedFiles": [],
+      "faultyHash": "",
       "isDirty": false
     }
   },
