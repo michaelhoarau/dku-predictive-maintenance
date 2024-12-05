@@ -1,11 +1,5 @@
 {
   "gitReferences": {
-    "library": {
-      "remote": "git@github.com:michaelhoarau/library.git",
-      "checkout": "",
-      "remotePath": "",
-      "isDirty": false
-    },
     "file-management": {
       "remote": "git@github.com:michaelhoarau/library.git",
       "checkout": "main",
@@ -19,7 +13,6 @@
   },
   "pythonPath": [
     "python",
-    "library",
     "file-management"
   ],
   "rsrcPath": [
