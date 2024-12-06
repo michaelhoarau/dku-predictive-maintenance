@@ -3,7 +3,7 @@
  * displays them on a world map.
  *
  * This is a simple "static" map: a whole dataset is shown.
- * Each row of the dataset gets one circle on the map, with a popup.
+ * Each row of the dataset gets one big circle on the map, with a popup.
  *
  * This template uses the 'leaflet' library.
  *
