@@ -1,0 +1,27 @@
+[
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "publishToDataCollections": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "GircjiL",
+    "id": "yU0VAnU2f0Ongd3V",
+    "key": "sha256:AWMLxYO2:beffb2a19e0218648391c287c8f0d919f557be589fbd06011eba607909d621a9",
+    "label": "Key for Web app Visualization WebApp(GircjiL)",
+    "createdOn": 1733476150726
+  }
+]
